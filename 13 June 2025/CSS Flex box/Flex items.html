@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+  background-color: DodgerBlue;
+  display: flex;
+  height: 200px;
+  /* align-items: baseline; */
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+</style>
+</head>
+<body>
+
+<h1>The flex-direction Property</h1>
+
+<p>flex-direction: row; stacks the flex items horizontally (from left to right):</p>
+
+<div class="flex-container">
+  <div>1</div>
+  <div>2</div>
+  <!-- The flex-shrink Property -->
+  <div style="flex-shrink: 0;">3</div>  
+  <!-- The flex-basis Property -->
+  <div style="flex-basis: 200px;">4</div>
+  <!-- The align-self Property -->
+  <div style="align-self: center;">5</div>
+  <div>6</div>  
+  <div>7</div>
+  <div>8</div>
+  <div>9</div>  
+  <div>10</div>
+  <div>11</div>
+  <div>12</div>  
+</div>
+
+</body>
+</html>
